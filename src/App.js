@@ -6,7 +6,16 @@ import SignIn from "./routes/sign-in/sign-in.component";
 
 const App = () => {
   const Shop = () => {
-    return <h1> I am sHoping </h1>;
+    const misi = () => {
+      return console.log("I love misi");
+    };
+
+    return (
+      <div>
+        <h1> I am sHoping </h1>
+        <button onClick={misi}>Ruth </button>
+      </div>
+    );
   };
 
   return (
